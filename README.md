@@ -21,10 +21,10 @@ it from DialogOS:
 ## Running the client
 
 The client needs to be compiled against DialogOS. It expects that
-there is a file `dialogos-all.jar` in the directory
+there is a file `dialogos-client-2.0.jar` in the directory
 `../dialogos/build/libs` relative to your `demo-dialogos-client`
-directory. You can produce `dialogos-all.jar` by running `./gradlew
-shadowJar` in the `dialogos` directory.
+directory. You can produce `dialogos-client-2.0.jar` by running `./gradlew
+clientLibrary` in the `dialogos` directory.
 
 Once this is done, you have two choices:
 
