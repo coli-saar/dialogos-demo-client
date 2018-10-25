@@ -1,7 +1,7 @@
 # Demo client for the DialogOS dialog system
 
 This is a simple client for
-[DialogOS](https://github.com/coli-saar/dialogos).  The purpose of
+[DialogOS](https://www.dialogos.app).  The purpose of
 this client is to provide a working example for a DialogOS client.
 
 The client displays a lightbulb, which can be turned on and off by
