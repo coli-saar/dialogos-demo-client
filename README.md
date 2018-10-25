@@ -14,19 +14,13 @@ The client listens on port 8888, and advertises its name as "DialogOS
 Demo Client" over Rendezvous. Thus, you have two choices to connect to
 it from DialogOS:
 
-* Dialog -> Devices -> New -> CLT Connector (Fixed Server) with port 8888.
-* Dilaog -> Devices -> New -> CLT Connector (Rendezvous) with service name "DialogOS Demo Client".
+* Dialog -> Devices -> New -> CLT Connector (Fixed Server) with port 8888 on localhost.
+* Dilaog -> Devices -> New -> CLT Connector (Rendezvous) with service name "DialogOS Demo Client" on localhost.
 
 
 ## Running the client
 
-The client needs to be compiled against DialogOS. It expects that
-there is a file `dialogos-client-2.0.jar` in the directory
-`../dialogos/build/libs` relative to your `demo-dialogos-client`
-directory. You can produce `dialogos-client-2.0.jar` by running `./gradlew
-clientLibrary` in the `dialogos` directory.
-
-Once this is done, you have two choices:
+You have two choices for compiling the demo client:
 
 1. Do `./gradlew run`
 2. Do `./gradlew shadowJar` to compile once, and then run `java -jar build/libs/demo-dialogos-client-all.jar`.
